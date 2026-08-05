@@ -1,6 +1,6 @@
 # Homework assignments
 
-* HW1: Search
+* HW1: Classical search
   - [Instructions](hw1/)
   - Your starter repo is `hw1-username` at our [GitHub org repository page](https://github.com/orgs/dickinson-comp364-fall2026/repositories). If you don't see a starter repo available, contact the instructor.
   - [Template for starter repo](https://github.com/dickinson-comp364-fall2026/hw1) -- shouldn't be needed if your private starter repo was created correctly, but may be useful for reference.
@@ -14,3 +14,8 @@
   - [Instructions](hw3/)
   - Your starter repo is `hw3-username` at our [GitHub org repository page](https://github.com/orgs/dickinson-comp364-fall2026/repositories).
   - [Template for starter repo](https://github.com/dickinson-comp364-fall2026/hw3) -- probably not needed.
+
+* HW4: Convolutional neural networks
+  - [Instructions](hw4/)
+  - Your starter repo is `hw4-username` at our [GitHub org repository page](https://github.com/orgs/dickinson-comp364-fall2026/repositories).
+  - [Template for starter repo](https://github.com/dickinson-comp364-fall2026/hw4) -- probably not needed.
