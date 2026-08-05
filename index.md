@@ -5,7 +5,7 @@
 * [Overview schedule](./comp364-schedule-7-11-2026.xlsx)  <!-- &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 9/18/2022</font> -->
 * [Detailed schedule](resources)
 * [Textbook](textbook.md)
-<!-- * [Homework assignments](hw/) -->
+* [Homework assignments](hw/)
 <!-- * [Exams](exams/) -->
 <!-- * [Brightspace](https://courses.dickinson.edu/d2l/home/13312) -->
 * Zoom link for when class is online: [https://zoom.us/my/johnmaccormick](https://zoom.us/my/johnmaccormick). Meeting ID: 398 215 6590.
