@@ -1,4 +1,4 @@
-# Assignment HW1
+# Assignment HW1: Classical search
 
 The objective is to implement various search strategies to solve the 8-puzzle, as described in class.
 

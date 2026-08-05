@@ -1,15 +1,15 @@
-# Programming assignment 3: Neural networks 
+# Assignment HW3: Neural networks 
 
 In this assignment, you will complete the two different implementations of a single artificial neuron and also implement a multilayer perceptron. All the resources you need are provided in the starter repo for this assignment, which is available in the course GitHub org.
 
-To complete the assignment, add and/or alter code at the locations of the string "TODO" in the followingthree source files:
+To complete the assignment, add and/or alter code at the locations of the string "TODO" in the following three source files:
 1. `gym_decision/gym_decision_neuron_raw.py`
 2. `gym_decision/gym_decision_neuron_pytorch.py`
 3. `dry_bean/src/dry_bean.py`.
 
 Work on the files in the order given above. Some unit tests are provided to help with correctness.
 
-To turn in this assignment, push changes to your private assignment repo in course GitHub org. Grading will be based largely on completeness and correctness.
+To turn in this assignment, push changes to your private assignment repo in the course GitHub org. Grading will be based largely on completeness and correctness.
 
 ---
 

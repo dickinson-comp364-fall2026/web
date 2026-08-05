@@ -1,4 +1,4 @@
-# Programming assignment 2: Decision trees
+# Assignment HW2: Decision trees
 
 In this assignment, you will complete the implementation a decision tree. All the resources you need are provided in the starter repo for this assignment, which is available in the course GitHub org.
 
