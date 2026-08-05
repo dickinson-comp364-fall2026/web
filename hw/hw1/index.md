@@ -114,7 +114,8 @@ Note: if your code was written using good software development technique, no oth
 
 - Examine the number of nodes explored and generated for each of the algorithms implemented. Do the numbers make sense?
 
-- The goal state provided in the code framework is a very easy goal. Rerun your algorithms on a moderately difficult goal (e.g. `{{0,3,1},{7,6,2},{4,8,5}}`) and a difficult goal (e.g. `{{7,2,4},{5,0,6},{8,3,1}}`). Again, do the results make sense?
+- The goal state provided in the code framework is a very easy goal. Rerun your algorithms on a moderately difficult goal (e.g. `{% raw %}{{0,3,1},{7,6,2},{4,8,5}}{% endraw %}`) and a difficult goal (e.g. `{% raw %}{{7,2,4},{5,0,6},{8,3,1}}{% endraw %}`). Again, do the results make sense?
+
 
 - Implement iterative deepening search.
 
