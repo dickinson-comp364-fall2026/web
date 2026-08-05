@@ -10,6 +10,8 @@ To turn in this assignment, push changes to your private assignment repo in the 
 
 1. Play around with the structure of network by altering the configuration file in the `configs` directory (e.g., adjust num layers, num features, stride length, kernel width). Which settings produce better results and/or faster training? 
 2. Run training on a larger dataset. To do this, edit the config file. Replace the two occurrences of `_300.csv` with `_1000.csv`, `_2000.csv`, ... , or `_5000.csv`. Do the results improve with more training data? How does the training time change?
+3. The whole point of this assignment was to learn how to implement a 1D convolutional network. But does it actually work better than a simpler alternative for this application? Create an MLP that solves the same task and compare its performance in terms of training time and accuracy.
+4. The idea of projecting latitude from temperature patterns seems cool, but it's hard to appreciate that our network is actually doing this based only on a report of mean squared error. Create a visualization that shows the successes and failures of the trained network, perhaps by overlaying on a map of the US.
 
 ---
 
