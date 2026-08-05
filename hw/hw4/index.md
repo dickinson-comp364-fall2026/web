@@ -1,6 +1,6 @@
 # Assignment HW4: Convolutional neural networks
 
-In this assignment, you will complete the implementation of a convolutional neural network. All the resources you need are provided in the starter repo for this assignment, which is available in the course GitHub org.
+In this assignment, you will complete the implementation of a convolutional neural network. All the resources you need are provided in the starter repo for this assignment, which is available in the course GitHub org. The README file in the starter repo contains a description of the task and the data.
 
 To complete the assignment, add and/or alter code at the locations of the string "TODO" in the source file `one_d_conv_net.py`.
 
