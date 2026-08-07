@@ -5,7 +5,7 @@
 In this assignment, you will complete the implementation of a transformer model. All the resources you need are provided in the starter repo for this assignment, which is available in the course GitHub org. 
 <!-- The README file in the starter repo contains a description of the task and the data. -->
 
-To complete the assignment, add and/or alter code at the locations of the string "TODO" in the source file `train_transformer.py`.
+To complete the assignment, add and/or alter code at the locations of the string "TODO" in the source files `train_transformer.py`,  `transformer_model.py`, and `generate_text.py`.
 
 To turn in this assignment, push changes to your private assignment repo in the course GitHub org. Grading will be based largely on completeness and correctness.
 
