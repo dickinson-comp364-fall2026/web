@@ -24,3 +24,5 @@
   - [Instructions](hw5/)
   - Your starter repo is `hw5-username` at our [GitHub org repository page](https://github.com/orgs/dickinson-comp364-fall2026/repositories).
   - [Template for starter repo](https://github.com/dickinson-comp364-fall2026/hw5) -- probably not needed.
+
+* [Final project](./final-project/)
