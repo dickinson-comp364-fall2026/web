@@ -6,6 +6,7 @@
 * [Detailed schedule](resources)
 * [Textbook](textbook.md)
 * [Homework assignments](hw/)
+* [Readings](readings/)
 <!-- * [Exams](exams/) -->
 * [Brightspace](https://courses.dickinson.edu/d2l/home/13133)
 * Zoom link for when class is online: [https://zoom.us/my/johnmaccormick](https://zoom.us/my/johnmaccormick). Meeting ID: 398 215 6590.
