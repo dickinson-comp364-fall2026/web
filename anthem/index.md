@@ -6,7 +6,7 @@ Chords are the same for every line of the song: `F`, `C`, `Am`, `G`.
 
 Suggestions for additional and improved lyrics are heartily welcomed.
 
-# Song Lyrics
+## Learning AI
 
 Well, I started out,  
 Down a long hard road.  
@@ -53,3 +53,5 @@ But I ain't got code,
 Gotta figure it out.  
 It's a long hard road.  
 
+-----
+[home](../)
