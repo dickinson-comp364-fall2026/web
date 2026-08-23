@@ -13,5 +13,7 @@
 * [AI prompt](comp364-prompt.md)
 * [Instructor's office hours](https://johnmaccormick.github.io/jmac-web/office-hours.html)
 * [GitHub org](https://github.com/dickinson-comp364-fall2026)
+* [Anthem: Learning AI](anthem/)
+
 
 
