@@ -6,6 +6,7 @@
 * [Detailed schedule](resources)
 * [Textbook](textbook.md)
 * [Homework assignments](hw/)
+* [Quizzes](quizzes/)
 * [Readings](readings/)
 <!-- * [Exams](exams/) -->
 * [Brightspace](https://courses.dickinson.edu/d2l/home/13133)
