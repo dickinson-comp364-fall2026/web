@@ -16,12 +16,13 @@ The starter repo for this assignment, available in the course GitHub org, contai
 
 - Ensure you have recent versions of Java and Maven installed. (e.g. `java --version` → `openjdk 21.0.7 2025-04-15 LTS`, `mvn --version` → `Apache Maven 3.9.9`.)
 
-- Ensure you can build using `mvn clean compile` and test using `mvn test` (although some tests will fail until you complete initial parts of the assignment).
+- Ensure you can build using `mvn clean compile` and test using `mvn test` (although some tests will fail until you complete initial parts of the assignment -- the output will contain `[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0`, or something similar.).
 
 - Familiarize yourself with the framework by reading the code and the comments. 
 
 - Ensure that you can run the `main()` method in `EightsPuzzleMain` from the command line, using:
 ```
+# command C1
 java -classpath target/classes edu.dickinson.EightsPuzzleMain bfs tree -1 -1
 ```
 We'll refer to this command as *C1* below.
@@ -68,11 +69,11 @@ Improve the existing algorithm in the following five ways:
 
 3. **Pass the provided JUnit tests.** The provided repository includes two JUnit tests. If you run the tests (e.g. via `mvn test`), those tests should now pass.
 
-4. **Enforce `maxNodes`.** At present, the algorithm ignores the value of `maxNodes` in the `ClassicalSearch` class. Ensure that the algorithm terminates with failure if it attempts to expand more than `maxNodes`. The special value `maxNodes == -1` indicates no maximum on the number of nodes expanded. *(From this point on in the assignment, you will need to carefully test the behavior of your algorithm to ensure that it is correct. The expected outputs will not be provided. Creating suitable JUnit tests would be one effective way of testing your code.)*
+4. **Enforce `maxNodes`.** At present, the algorithm ignores the value of `maxNodes` in the `ClassicalSearch` class. Ensure that the algorithm terminates with failure if it attempts to expand more than `maxNodes`. The special value `maxNodes == -1` indicates no maximum on the number of nodes expanded. Hint: Modify only `ClassicalSearch.java`. *(From this point on in the assignment, you will need to carefully test the behavior of your algorithm to ensure that it is correct. The expected outputs will not be provided. Creating suitable JUnit tests would be one effective way of testing your code.)*
 
-5. **Enforce `maxDepth`.** At present, the algorithm ignores the value of `maxDepth` in the `ClassicalSearch` class. Ensure that the algorithm terminates with failure if it has explored all nodes at depths up to and including `maxDepth` without finding a solution. The special value `maxDepth == -1` indicates no maximum on the depth.
+5. **Enforce `maxDepth`.** At present, the algorithm ignores the value of `maxDepth` in the `ClassicalSearch` class. Ensure that the algorithm terminates with failure if it has expanded all nodes at depths up to and including `maxDepth` without finding a solution. The special value `maxDepth == -1` indicates no maximum on the depth. Hint: Modify only `ClassicalSearch.java`. 
 
-6. **Implement graph search.** At present, tree search is implemented but graph search is not. Ensure that when the `graph` option is specified on the command line, the algorithm never expands the same state more than once.
+6. **Implement graph search.** At present, tree search is implemented but graph search is not. Ensure that when the `graph` option is specified on the command line, the algorithm never expands the same state more than once. Hint: Modify only `ClassicalSearch.java`. 
 
 ---
 
@@ -112,7 +113,7 @@ Note: if your code was written using good software development technique, no oth
 
 *(No extra credit is available. Completing this further work will, however, be extremely beneficial for understanding the algorithms and increasing your maturity as a computer scientist.)*
 
-- Examine the number of nodes explored and generated for each of the algorithms implemented. Do the numbers make sense?
+- Examine the number of nodes expanded and generated for each of the algorithms implemented. Do the numbers make sense?
 
 - The goal state provided in the code framework is a very easy goal. Rerun your algorithms on a moderately difficult goal (e.g. `{% raw %}{{0,3,1},{7,6,2},{4,8,5}}{% endraw %}`) and a difficult goal (e.g. `{% raw %}{{7,2,4},{5,0,6},{8,3,1}}{% endraw %}`). Again, do the results make sense?
 
