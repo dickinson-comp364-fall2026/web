@@ -79,19 +79,19 @@ Improve the existing algorithm in the following five ways:
 
 ## Question 2 (20%)
 
-Implement depth-first search, by creating and implementing a `DepthFirstSearchNode` class that extends `SearchNode`. Also make the necessary changes to `EightsPuzzleMain` so that the `dfs` option now works from the command line.
+Implement depth-first search, by creating and implementing a `DepthFirstSearchNode` class that extends `SearchNode`. Also make the necessary changes to `EightsPuzzleMain` so that the `dfs` option now works from the command line. Hints: 1. Look at the `BreadthFirstSearchNode` class for guidance. 2. Don't edit anything except your new `DepthFirstSearchNode.java` file and one line in `EightsPuzzleMain.java`.
 
 ---
 
 ## Question 3 (10%)
 
-Implement A\* search with the number-of-misplaced-tiles heuristic described as $h_1$ in our class lectures. This can be accomplished by creating and implementing an `AStarNumTiles` class that extends `SearchNode`. Also make the necessary changes to `EightsPuzzleMain` so that the `as1` option now works from the command line.
+Implement A\* search with the number-of-misplaced-tiles heuristic described as $h_1$ in our class lectures. This can be accomplished by creating and implementing an `AStarNumTiles` class that extends `SearchNode`. Also make the necessary changes to `EightsPuzzleMain` so that the `as1` option now works from the command line. Hint: Don't edit anything except your new `AStarNumTiles.java` file and one line in `EightsPuzzleMain.java`.
 
 ---
 
 ## Question 4 (15%)
 
-Implement A\* search with the Manhattan distance heuristic described as $h_2$ in our class lectures. This can be accomplished by creating and implementing an `AStarManhattan` class that extends `SearchNode`. Also make the necessary changes to `EightsPuzzleMain` so that the `as2` option now works from the command line.
+Implement A\* search with the Manhattan distance heuristic described as $h_2$ in our class lectures. This can be accomplished by creating and implementing an `AStarManhattan` class that extends `SearchNode`. Also make the necessary changes to `EightsPuzzleMain` so that the `as2` option now works from the command line. Hint: Don't edit anything except your new `AStarManhattan.java` file and one line in `EightsPuzzleMain.java`.
 
 ---
 
