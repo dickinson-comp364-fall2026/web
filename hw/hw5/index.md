@@ -10,8 +10,6 @@ To turn in this assignment, push changes to your private assignment repo in the 
 
 ## Optional extension exercises
 
-# Optional next steps
-
 1. Generate a much larger knowledge base and train a fact-learning transformer on it. 
 2. Play around with the architecture of the transformer, altering for example the number of layers, number of heads, and the model dimension. What is the effect on training time and accuracy?
 3. Extend the knowledge base and training procedure so that the transformer can answer yes/no questions such as "Is the cup cylindrical?".
