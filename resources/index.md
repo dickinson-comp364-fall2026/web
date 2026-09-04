@@ -7,6 +7,8 @@
   - optional: Wear shoes that can get muddy if you want to stroll on the Appalachian Trail for a few minutes.
   - our route: [Kaufman parking lot to PAX1 site then Appalachian Trail](https://goo.gl/maps/P9VtDsQK7fzCum3n6)
   - We will be back on campus before the end of class at 2:45 PM.
+* any questions on the syllabus?
+  - Discussion of AI use policy
 * review _search node_ with fields state, parent, action, depth, cost
   - show Java file `SearchNode.java` from HW1
 * Show BFS via quiz1 qu1, skip DFS
