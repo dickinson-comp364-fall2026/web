@@ -6,9 +6,6 @@
   - Meet in Kaufman parking lot near the entrance to [Public Safety](https://maps.app.goo.gl/ybuyWRGDrGsb8rVm8) no later than 1:30 PM.
   - optional: Wear shoes that can get muddy if you want to stroll on the Appalachian Trail for a few minutes.
   - our route: [Kaufman parking lot to PAX1 site then Appalachian Trail](https://goo.gl/maps/P9VtDsQK7fzCum3n6)
-  
-  
-  (https://maps.app.goo.gl/6g5k7v9Z1q3X8x2C9)
   - We will be back on campus before the end of class at 2:45 PM.
 * review _search node_ with fields state, parent, action, depth, cost
   - show Java file `SearchNode.java` from HW1
