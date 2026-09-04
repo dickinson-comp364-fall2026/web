@@ -14,6 +14,7 @@
 * Show BFS via quiz1 qu1, skip DFS
 * Show UCS via quiz1 qu3
 * Show A* via quiz1 qu4
+* **Reference implementation available:** [search.zip](./class02/search.zip)
 * define admissible heuristic, consistent heuristic:
   - admissible: never overestimates the cost to reach the goal, so \\(h(n) \leq h^*(n)\\)
   - consistent: the estimated cost of reaching the goal from a node is less than or equal to the cost of reaching a neighbor plus the estimated cost of reaching the goal from the neighbor, so \\(h(n) \leq c(n, n') + h(n')\\)
