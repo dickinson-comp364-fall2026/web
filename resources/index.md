@@ -1,5 +1,23 @@
 # Detailed schedule and resources
 
+## Class 4
+
+* Quiz 1.
+* nearest neighbor classifier
+* Quiz 2 questions 1-2
+* expectation, entropy (Quiz 2 questions 3-5)
+* example of a decision tree
+* Quick review of Matrix Algebra, Sec 2 and Sec 3
+* Quiz 2 q10.
+
+Any remaining time: Q&A for HW1
+
+Also: are you keeping up with the readings? i.e. Thinking AI Ch1-2.
+
+## Class 3
+
+[PAX-1 and Appalachian Trail field trip](https://goo.gl/maps/P9VtDsQK7fzCum3n6).
+
 ## Class 2
 
 * arrangements for next week's field trip on Tuesday 9/8:
