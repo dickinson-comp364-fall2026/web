@@ -1,4 +1,4 @@
-# Assignment HW5: Transformers
+# Assignment HW6: Transformers
 
 
 In this assignment, you will complete the implementation of a transformer model. All the resources you need are provided in the starter repo for this assignment, which is available in the course GitHub org. 
