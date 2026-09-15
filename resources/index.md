@@ -1,5 +1,11 @@
 # Detailed schedule and resources
 
+## Class 5
+
+
+* Quiz Two questions 6, 7, 8, 9. If we run out of time, please go over the rest for homework.
+* Also if time: Matrix Algebra section 2 (broadcasting + quiz 2 question 10)
+
 ## Class 4
 
 * Quiz 1.
@@ -7,10 +13,15 @@
 * Quiz 2 questions 1-2
 * expectation, entropy (Quiz 2 questions 3-5)
 * example of a decision tree
+
+_we skipped:_
+
 * Quick review of Matrix Algebra, Sec 2 and Sec 3
 * Quiz 2 q10.
 
-Any remaining time: Q&A for HW1
+we did:
+
+* Remaining time: Q&A for HW1
 
 Also: are you keeping up with the readings? i.e. Thinking AI Ch1-2.
 
