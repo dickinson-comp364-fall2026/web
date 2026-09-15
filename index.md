@@ -1,7 +1,7 @@
 # COMP364: Artificial Intelligence, fall 2026
 
 * [Syllabus](./comp364-syllabus-8-23-2026.docx)
-* [Overview schedule](./comp364-schedule.xlsx?v=9-14-2026)  &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 9/14/2026</font>
+* [Overview schedule](./comp364-schedule.xlsx?v=9-15-2026)  &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 9/15/2026</font>
 * [Detailed schedule](resources)
 * [Textbook](textbook.md)
 * [Homework assignments](hw/)
