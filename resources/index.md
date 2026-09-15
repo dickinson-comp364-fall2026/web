@@ -2,8 +2,17 @@
 
 ## Class 5
 
+Announcement:
+
+* Note new website content:
+  * quiz retakes
+  * discussion grading
+  * reading for next time: skip Turing sections 4 and 5.
+  
+Lecture:
+
+* _Matrix Algebra_ section 2 and 3, especially broadcasting + quiz 2 question 10
 * Quiz Two questions 6, 7, 8, 9. If we run out of time, please go over the rest for homework.
-* Also if time: _Matrix Algebra_ section 2 and 3, especially broadcasting + quiz 2 question 10
 
 ## Class 4
 
