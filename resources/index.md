@@ -8,6 +8,7 @@ Announcement:
   * quiz retakes
   * discussion grading
   * reading for next time: skip Turing sections 4 and 5.
+  * Friday's D1 discussion class will be in **Tome 228** (the science library).
   
 Lecture:
 
