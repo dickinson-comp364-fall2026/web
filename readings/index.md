@@ -1,5 +1,7 @@
 # Readings
 
+* _Thinking AI: How Artificial Intelligence Emulates Human Understanding._
+J. MacCormick. Princeton, 2026. [Dickinson Library full pdf on Brightspace](https://courses.dickinson.edu/d2l/le/lessons/13133/topics/195953)
 * John MacCormick. "Matrix Algebra: vectors, matrices, tensors, NumPy, and PyTorch". [pdf](./matrix-algebra.pdf)
 * Alan M. Turing. "Computing machinery and intelligence." In: _Mind_ 59.236 (1950), pp. 433–460. Available on [Brightspace](https://courses.dickinson.edu/d2l/le/lessons/13133/topics/168497)
   * read only Sections 1-3, 6-7 (i.e., skip Sections 4 and 5). About 22 pages total.
