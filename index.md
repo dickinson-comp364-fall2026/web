@@ -1,13 +1,15 @@
 # COMP364: Artificial Intelligence, fall 2026
 
+<font color="red">**NEWS FLASH: Friday Sept 18 class is in Althouse 106 with visiting speaker -- see Brightspace announcement**</font>
+
 * [Syllabus](./comp364-syllabus-8-23-2026.docx)
-* [Overview schedule](./comp364-schedule.xlsx?v=9-15-2026)  &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 9/15/2026</font>
+* [Overview schedule](./comp364-schedule.xlsx?v=9-16-2026)  &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 9/16/2026</font> 
 * [Detailed schedule](resources)
 <!-- * [Textbook](textbook.md) -->
 * [Homework assignments](hw/)
-* [Quizzes](quizzes/) &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 9/14/2026</font>
+* [Quizzes](quizzes/)
 * [Readings](readings/)
-* [Discussion grading](discussion-grading.md) &nbsp;&nbsp;&nbsp;<font color="red">ADDED on 9/14/2026</font>
+* [Discussion grading](discussion-grading.md)
 <!-- * [Exams](exams/) -->
 * [Brightspace](https://courses.dickinson.edu/d2l/home/13133)
 * Zoom link for when class is online: [https://zoom.us/my/johnmaccormick](https://zoom.us/my/johnmaccormick). Meeting ID: 398 215 6590.
