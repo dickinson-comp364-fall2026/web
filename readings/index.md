@@ -1,7 +1,5 @@
 # Readings
 
-<font color="red">**NEWS FLASH: Friday Sept 18 class is in Althouse 106 with visiting speaker -- see Brightspace announcement**</font>
-
 * _Thinking AI: How Artificial Intelligence Emulates Human Understanding._
 J. MacCormick. Princeton, 2026. [Dickinson Library full pdf on Brightspace](https://courses.dickinson.edu/d2l/le/lessons/13133/topics/195953)
 * John MacCormick. "Matrix Algebra: vectors, matrices, tensors, NumPy, and PyTorch". [pdf](./matrix-algebra.pdf)
