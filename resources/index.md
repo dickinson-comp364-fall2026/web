@@ -2,9 +2,16 @@
 
 ## Class 7
 
-* Quiz 2.
+* Quiz 2 (15 minutes)
+* D1 discussion class will be this Friday 9/25 in **Tome 228** (the science library). Same requirements as before -- bring handwritten notes etc.
+* In the remaining time today we will run through as much of Quiz 3 as possible. Anything that isn't covered will be covered in a video lecture to be released later this week.
 
+Key definitions that are not in the quiz solutions:
 
+* softmax function is defined as: \\( \text{softmax}(x_i) = \frac{e^{x_i}}{\sum_{j} e^{x_j}} \\)
+* cross-entropy loss is defined as: \\( \text{cross-entropy}(y, \hat{y}) = -\sum_{i} y_i \log(\hat{y}_i) \\)
+  * compare with _binary_ cross-entropy loss, which is defined as: \\( \text{binary-cross-entropy}(y, \hat{y}) = -[y \log(\hat{y}) + (1-y) \log(1-\hat{y})] \\)
+* Softmax is a generalization of the logistic function in the following sense: \\( \text{softmax}(x, 0) = (\sigma(x), \sigma(-x)) \\). So when there are only two classes, the logistic function plays the role of softmax.
 
 ## Class 6
 
