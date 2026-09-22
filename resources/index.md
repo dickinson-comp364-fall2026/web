@@ -1,5 +1,15 @@
 # Detailed schedule and resources
 
+## Class 7
+
+
+
+
+
+## Class 6
+
+Visiting speaker: Justin Ross, COO & Chief Engineer at Pennsylvania Data Center Partners.
+
 ## Class 5
 
 Announcement:

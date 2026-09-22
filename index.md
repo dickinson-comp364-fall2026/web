@@ -3,7 +3,7 @@
 ![comp364 at the Appalachian trail](./assets/images/comp364-appalachian-trail.jpg)
 
 * [Syllabus](./comp364-syllabus-8-23-2026.docx)
-* [Overview schedule](./comp364-schedule.xlsx?v=9-16-2026)  &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 9/16/2026</font> 
+* [Overview schedule](./comp364-schedule.xlsx?v=9-22-2026)  &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 9/16/2026</font> 
 * [Detailed schedule](resources)
 <!-- * [Textbook](textbook.md) -->
 * [Homework assignments](hw/)
