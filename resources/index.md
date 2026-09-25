@@ -1,5 +1,12 @@
 # Detailed schedule and resources
 
+## Class 8
+
+D1 discussion: Thinking AI Ch1-4, Turing (1950).
+
+* Class is in the **Science Library (Tome 228)**.
+* Remember to bring handwritten notes.
+
 ## Class 7a: Video lecture
 
 * [Part 1](https://dickinson0-my.sharepoint.com/:v:/g/personal/jmac_dickinson_edu/IQBA0ns4iU4FSYtj3pcRCAT3AXRImLvZb6wJRn95cKPzN08?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yqkjgS)
@@ -17,7 +24,6 @@ Key definitions that are not in the quiz solutions:
 * cross-entropy loss is defined as: \\( \text{cross-entropy}(y, \hat{y}) = -\sum_{i} y_i \log(\hat{y}_i) \\)
   * compare with _binary_ cross-entropy loss, which is defined as: \\( \text{binary-cross-entropy}(y, \hat{y}) = -[y \log(\hat{y}) + (1-y) \log(1-\hat{y})] \\)
 * Softmax is a generalization of the logistic function in the following sense: \\( \text{softmax}(x, 0) = (\sigma(x), \sigma(-x)) \\). So when there are only two classes, the logistic function plays the role of softmax.
-
 
 ## Class 6
 
