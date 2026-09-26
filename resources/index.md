@@ -10,7 +10,7 @@ D1 discussion: Thinking AI Ch1-4, Turing (1950).
 ## Class 7a: Video lecture
 
 * [Part 1](https://dickinson0-my.sharepoint.com/:v:/g/personal/jmac_dickinson_edu/IQBA0ns4iU4FSYtj3pcRCAT3AXRImLvZb6wJRn95cKPzN08?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yqkjgS)
-* Part 2 under construction
+* [Part 2](https://dickinson0-my.sharepoint.com/:v:/g/personal/jmac_dickinson_edu/IQCWobZT4YVWTK-KwfKV1Eo2AdVl1bghQ6D_ey8PX4RWV0E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DzeJAB), with [whiteboard](https://dickinson0-my.sharepoint.com/:i:/g/personal/jmac_dickinson_edu/IQCZwTogM4yfRYgHQa-SaNukAU_kYdL0Pwzb_YnkR7wZsHU?e=UTW3fd)
 
 ## Class 7
 
