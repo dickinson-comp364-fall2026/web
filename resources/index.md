@@ -1,5 +1,33 @@
 # Detailed schedule and resources
 
+## Class 9
+
+* Before class: show handwritten notes on "The AI Deluge".
+* Announcements:
+  * Required event tonight -- 7pm ATS
+  * Quiz 3 on Friday -- questions 1-4 will _not_ be tested
+  * Exam 1: Topics 1-3. All questions are similar to questions in Q1, Q2, Q3.
+  * Questions on video lecture (class 7A below).
+* _device-free from this point please_
+* Discuss the reading from Elizabeth Ayanna Johnson, which is the interview of Mustafa Suleyman, "[The AI Deluge][aiDeluge]".
+* What is sustainability?
+  * our own ideas
+  * [UN Sustainable Development Goals][sdgDefinition] (SDGs)
+  * In [teams](./class09/teams.md): Each team discuss which SDGs are relevant to AI.
+    * Name the top 1-3 SDGs that are _degraded_ by AI
+    * Name the top 1-3 SDGs that could be _improved_ with AI.
+    * Report back.
+* Data center sustainability. [powerpoint](./class09/data-center-sustainability.pptx)
+  * optional to watch at home: "Real-World Effects of AI." Clarke Forum for Contemporary Issues panel session, February 26, 2026; [web](https://www.clarkeforum.org/thursday-february-26-2026/); [video](https://www.youtube.com/live/RcZmU-Go9N8).
+* _Devices may be used for the rest of the session_
+* Go over the sustainability poster (SP) assignment .
+  * example of presentation style: [jmac poster](../hw/sust-poster/poster-valley-and-ridge-may2026.pdf)
+  * **any** topic linking AI and sustainability
+* Remaining time: individual/team work on SP assignment
+
+[sdgDefinition]: https://sdgs.un.org/goals
+[aiDeluge]: https://courses.dickinson.edu/d2l/le/lessons/13133/topics/168496
+
 ## Class 8
 
 D1 discussion: Thinking AI Ch1-4, Turing (1950).
