@@ -2,7 +2,7 @@
 
 ## Class 9
 
-* Before class: show handwritten notes on "The AI Deluge".
+* Before class: show handwritten notes on "The AI Deluge."
 * Announcements:
   * Required event tonight -- 7pm ATS
   * Quiz 3 on Friday -- questions 1-4 will _not_ be tested
