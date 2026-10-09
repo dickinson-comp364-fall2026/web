@@ -1,5 +1,19 @@
 # Detailed schedule and resources
 
+## Class 12
+
+Exam review session. Bring any questions about exam material to class.
+
+Additional exam info is available on the [exams](../exams/) page.
+
+## Class 11
+
+Sustainability poster session and grading.
+
+## Class 10
+
+In class work on sustainability posters.
+
 ## Class 9
 
 * Before class: show handwritten notes on "The AI Deluge."
