@@ -1,5 +1,11 @@
 # Detailed schedule and resources
 
+## Class 13
+
+* Announcement: Talk on Cybersecurity 5:00 PM today October 13 in Tome 115
+
+Today: Exam 1 in class
+
 ## Class 12
 
 Exam review session. Bring any questions about exam material to class.
