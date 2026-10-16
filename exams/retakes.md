@@ -15,18 +15,18 @@ You must complete all parts of the retake process, including oral confirmation, 
 
 ## Which exams can be retaken?
 
-You can retake any written midterm exam, but not the final exam.
+You can retake any written midterm exam.
 
 ## Who can do retakes?
 
-If your curved percentage was below the retake threshold, you can retake the exam. If your curved percentage was greater than or equal to the retake threshold, you cannot retake the exam.
+If your percentage score was below the retake threshold, you can retake the exam. If your percentage score was greater than or equal to the retake threshold, you cannot retake the exam.
 
 ## Scoring
 
-After retaking an exam, your official score for the exam will be computed as the average of (i) your original curved score and (ii) your retake score multiplied by the retake threshold.
+After retaking an exam, your official score for the exam will be computed as the average of (i) your original percentage score and (ii) your retake score multiplied by the retake threshold.
   
 * Example: Suppose
-  * your original curved score was 70%;
+  * your original percentage score was 70%;
   * your retake score was 100%;
   * the retake threshold is 87%.
   

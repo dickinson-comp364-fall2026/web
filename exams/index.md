@@ -21,10 +21,11 @@ printed, written, electronic, or other materials. Exceptions:
 worth a total of approximately 75 points on each exam.
 So, you should budget your time at the rate of about one point per minute.
 
-* It will be possible to retake an exam under certain conditions.
-<!-- See the separate [Exam retakes page](./retakes.md). -->
+## Retakes
 
-<!-- ## Retakes -->
+* It is possible to retake an exam under certain conditions.
+See the separate [Exam retakes page](./retakes.md).
+
 
 <!-- Under certain circumstances as it is possible to retake a midterm exam and recover some of the points lost. Please see the [retake policy](./retakes.md). -->
 
