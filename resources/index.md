@@ -1,5 +1,19 @@
 # Detailed schedule and resources
 
+## Class 15
+
+Please fill out the mid-semester feedback form (link provided in class).
+
+Questions about exam 1.
+
+Questions on _Matrix Algebra_, Sec 6 and Sec 7.
+
+Lecture: Computing convolutions and their output sizes; regression via MSE.
+
+## Class 14
+
+Discussion D2
+
 ## Class 13
 
 * Announcement: Talk on Cybersecurity 5:00 PM today October 13 in Tome 115
