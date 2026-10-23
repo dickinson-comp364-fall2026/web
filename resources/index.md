@@ -2,13 +2,17 @@
 
 ## Class 15
 
-Please fill out the mid-semester feedback form (link provided in class).
+Please fill out the [mid-semester feedback form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VbAyYrl2E0ybiLVirn22-2zFL4dI9oNMmoALudp-AK9UMDhSSFBPQ1BHREJCNlJQNVE5RTJMOE5ZUS4u)
 
 Questions about exam 1.
 
 Questions on _Matrix Algebra_, Sec 6 and Sec 7.
 
-Lecture: Computing convolutions and their output sizes; regression via MSE.
+Lecture: Computing convolutions and their output sizes.
+
+* whiteboard for quiz 4, question 1: [quiz4-question1.png](./class15/quiz4-question1.png)
+* whiteboard for quiz 4, question 2: [quiz4-question2.png](./class15/quiz4-question2.png)
+* we also cover question 3 if time allows.
 
 ## Class 14
 
