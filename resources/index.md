@@ -1,5 +1,18 @@
 # Detailed schedule and resources
 
+## Class 16
+
+Discussion of mid-semester feedback.
+
+Finish quiz 4 explanations: questions 3 and 4
+
+* Example code for quiz 4, question 4: [mse.py](./class16/mse.py)
+
+Coding suggestions for HW4
+
+* Example code for HW4: [simple_cnn.py](./class16/simple_cnn.py)
+* Note especially the method of computing the output size of a model via a dummy input.
+
 ## Class 15
 
 Please fill out the [mid-semester feedback form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VbAyYrl2E0ybiLVirn22-2zFL4dI9oNMmoALudp-AK9UMDhSSFBPQ1BHREJCNlJQNVE5RTJMOE5ZUS4u)

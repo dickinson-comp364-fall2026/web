@@ -1,0 +1,17 @@
+import torch 
+import torch.nn as nn
+loss_fn = nn.MSELoss()
+target = torch.tensor([[1, 2], [20, 21]], dtype=torch.float32)
+input = torch.tensor([[1.1, 2], [20, 20]], dtype=torch.float32, requires_grad=True)
+num_vals = input.numel()
+print(f"num_vals: {num_vals}")
+loss = loss_fn(input, target)
+loss_val = loss.item()
+print(f"loss_val*num_vals: {loss_val * num_vals}")
+print(f"loss_val: {loss_val}")
+loss.backward()
+print(f"dLoss/dInput * num_vals: \n{input.grad * num_vals}")
+print(f"dLoss/dInput: \n{input.grad}")
+optimizer = torch.optim.SGD([input], lr=0.1)
+optimizer.step()
+print(f"Updated input: \n{input.detach()}")
