@@ -6,6 +6,8 @@ Chords are the same for every line of the song: `F`, `C`, `Am`, `G`.
 
 Suggestions for additional and improved lyrics are heartily welcomed.
 
+Recording by Carlisle String Band (sorry, rehearsed only 15 minutes): [learning-AI.m4a](./learning-AI.m4a) -- featuring M. Renault (Shippensburg), C. Francese (Dickinson), J. MacCormick (Dickinson)
+
 ## Learning AI
 
 Well, I started out,  
