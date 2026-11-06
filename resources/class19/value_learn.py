@@ -32,23 +32,27 @@ rho = [0.88, 0.21, 0.62, 0.89, 0.48]
 
 class HardwiredRNG:
     """A hardwired pseudo-random number generator that returns a predefined sequence of numbers.
-    This is useful for deterministic testing and reproducibility of simulations."""
+    This is useful for deterministic testing and reproducibility of simulations.
+    draw_count is the 1-based position of the most recently consumed number."""
 
     def __init__(self, sequence):
         self.sequence = sequence
         self._iterator = iter(self.sequence)
+        self.draw_count = 0
 
-    def get_next_rnd(self) -> float:
+    def get_next_rnd(self) -> float | None:
         """Return the next number in the predefined sequence, if available."""
         try:
-            return next(self._iterator)
+            value = next(self._iterator)
         except StopIteration:
             return None
+        self.draw_count += 1
+        return value
 
 
-def td_zero_sum_update(v_curr: float, v_next: float, eta: float = 0.1) -> float:
-    """Computes V(S_t) <- V(S_t) + eta * ((1 - V(S_{t+1})) - V(S_t))."""
-    return (1 - eta) * v_curr + eta * (1 - v_next)
+def td_zero_sum_update(v_curr: float, v_next: float, alpha: float = 0.1) -> float:
+    """Computes V(S_t) <- V(S_t) + alpha * ((1 - V(S_{t+1})) - V(S_t))."""
+    return (1 - alpha) * v_curr + alpha * (1 - v_next)
 
 
 def parse_graph_toml(file_path: str):
@@ -88,13 +92,14 @@ def run_single_episode(
     values: dict,
     rng: HardwiredRNG,
     epsilon: float = 0.3,
-    eta: float = 0.1,
+    alpha: float = 0.1,
 ):
     """Executes a single episode trajectory dynamically from start_node to end_node,
-    consuming pseudo-random numbers only when branching choices exist.
+    consuming pseudo-random numbers only when branching choices exist. Each
+    transition includes the sequence index of its decision draw, or None.
     """
     path = [start_node]
-    # Stores tuple: (from_node, to_node, rho_value, move_type)
+    # Stores tuple: (from_node, to_node, rho_value, move_type, rho_index)
     transitions = []
 
     curr = start_node
@@ -106,6 +111,7 @@ def run_single_episode(
         # Rule: Consume random number ONLY if strictly more than one option
         if len(options) > 1:
             rho = rng.get_next_rnd()
+            rho_index = rng.draw_count if rho is not None else None
             if rho is not None and rho < epsilon:
                 next_node = choose_exploratory_move(
                     options, values, rng)  # Exploratory move E
@@ -116,10 +122,11 @@ def run_single_episode(
                 move_type = "B"
         else:
             rho = None
+            rho_index = None
             next_node = options[0]  # Single choice defaults to best move B
             move_type = "B"
 
-        transitions.append((curr, next_node, rho, move_type))
+        transitions.append((curr, next_node, rho, move_type, rho_index))
         curr = next_node
         path.append(curr)
 
@@ -139,7 +146,7 @@ def run_single_episode(
 
         # Update value only for greedy moves
         if transitions[i][3] == 'B':
-            updated_vals[u] = td_zero_sum_update(u_val, v_val, eta)
+            updated_vals[u] = td_zero_sum_update(u_val, v_val, alpha)
         else:
             updated_vals[u] = None
 
@@ -167,7 +174,7 @@ def simulate_episodes(
     end_node: str = "z",
     num_episodes: int = 2,
     epsilon: float = 0.3,
-    eta: float = 0.1,
+    alpha: float = 0.1,
 ):
     """Simulates N=num_episode episodes sequentially over a general directed graph structure."""
     rng = HardwiredRNG(hardwired_rng_seq)
@@ -176,7 +183,7 @@ def simulate_episodes(
 
     for _ in range(num_episodes):
         ep_data = run_single_episode(
-            start_node, end_node, edges, values, rng, epsilon, eta
+            start_node, end_node, edges, values, rng, epsilon, alpha
         )
         episodes_data.append(ep_data)
 
@@ -203,9 +210,9 @@ def generate_markdown(episodes_data: list) -> str:
         # Table Rows
         for i, state in enumerate(path):
             if i < len(transitions):
-                _, next_node, rho, move_type = transitions[i]
+                _, next_node, rho, move_type, rho_index = transitions[i]
                 if rho is not None:
-                    trans_str = f"$\\rho_{{{i+1}}}={rho} \\xrightarrow{{{move_type}}}$ {next_node}"
+                    trans_str = f"$\\rho_{{{rho_index}}}={rho} \\xrightarrow{{{move_type}}}$ {next_node}"
                 else:
                     trans_str = f"$\\xrightarrow{{{move_type}}}$ {next_node}"
             else:
@@ -247,22 +254,21 @@ def generate_latex(episodes_data: list) -> str:
         path_cells = [
             rf"\text{{episode {ep_idx}}}" if ep_idx > 1 else r"\text{episode 1}"]
 
-        # Keep track of sequential random number indexing across the whole run
         for i, state in enumerate(path):
             path_cells.append(state)
             if i < len(transitions):
-                _, _, rho, move_type = transitions[i]
+                _, _, rho, move_type, rho_index = transitions[i]
                 macro = rf"\xr{move_type}"
                 if rho is not None:
                     # e.g., \rho_1=0.88 \xrB
-                    path_cells.append(rf"\rho_{{{i+1}}}={rho} {macro}")
+                    path_cells.append(rf"\rho_{{{rho_index}}}={rho} {macro}")
                 else:
                     path_cells.append(macro)
 
         row_path = " & ".join(path_cells) + r" \\"
 
         # Row 2: Initial State Values
-        init_cells = [""]  # Align empty under "episode N"
+        init_cells = ["V"]
         for i, val in enumerate(init_vals):
             init_cells.append(f"{val:.2f}" if isinstance(
                 val, float) else str(val))
@@ -272,7 +278,7 @@ def generate_latex(episodes_data: list) -> str:
         row_init = " & ".join(init_cells) + r" \\"
 
         # Row 3: Updated State Values (Non-terminal)
-        upd_cells = [""]
+        upd_cells = ["V'"]
         for i in range(len(path)):
             if i < len(updated_vals):
                 val = updated_vals[i]
@@ -316,8 +322,8 @@ def main():
                         help="Path to the TOML file containing graph structure and initial values.")
     parser.add_argument("-eps", "--epsilon", type=float,
                         help="Exploration probability.")
-    parser.add_argument("-eta", "--eta", type=float,
-                        help="Learning rate for TD updates.")
+    parser.add_argument("-alpha", "--alpha", type=float,
+                        help="Learning rate (step size) for TD updates.")
     args = parser.parse_args()
 
     toml_path = Path(args.toml)
@@ -328,9 +334,9 @@ def main():
 
     edges, values, hardwired_rng_seq = parse_graph_toml(toml_path)
     epsilon = args.epsilon if args.epsilon is not None else 0.3
-    eta = args.eta if args.eta is not None else 0.1
+    alpha = args.alpha if args.alpha is not None else 0.1
     sim_data = simulate_episodes(
-        edges, values, hardwired_rng_seq, epsilon=epsilon, eta=eta)
+        edges, values, hardwired_rng_seq, epsilon=epsilon, alpha=alpha)
 
     md_output = generate_markdown(sim_data)
     latex_output = generate_latex(sim_data)
