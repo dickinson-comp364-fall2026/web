@@ -1,5 +1,19 @@
 # Detailed schedule and resources
 
+## Class 19
+
+Quiz 4
+
+Value learning algorithm. Code: [value_learn.py](./class19/value_learn.py)
+
+## Class 18
+
+Discussion D3: _Thinking AI_, chapters 8-10.
+
+## Class 17
+
+optional lab day
+
 ## Class 16
 
 Discussion of mid-semester feedback.
