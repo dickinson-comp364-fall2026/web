@@ -1,5 +1,10 @@
 # Detailed schedule and resources
 
+## Class 20
+
+* [Quiz 6 whiteboard](./class20/quiz-6-whiteboard.png)
+* (optional) [Colab embeddings demo](https://colab.research.google.com/drive/11HlCgdk4wnZb29pdz-IaD5YtlWRLMv9b?usp=sharing)
+
 ## Class 19
 
 Quiz 4
