@@ -9,4 +9,4 @@
 
 ## Quiz retakes
 
-Unlimited retakes are available for quizzes. Retakes must take place by appointment, either during scheduled office hours or on a Wednesday evening at 6:50 PM. When doing a quiz retake, please bring a printed copy of the quiz without solutions.
+Unlimited retakes are available for quizzes. Retakes must take place either during scheduled office hours or on a Wednesday evening at 6:50 PM. When doing a quiz retake, please bring a printed copy of the quiz without solutions. Notes 1. On 11/9/2026, the requirement to schedule an appointment for quiz retakes was removed. 2. On 11/9/2026, the following clarification is being added: Quiz retakes must be completed by the last day of classes.
