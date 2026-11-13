@@ -1,5 +1,18 @@
 # Detailed schedule and resources
 
+## Class 21
+
+* finish quiz 6 explanations
+* transformers in pytorch:
+  * Residual connections inside the attention layer and how to implement them in the `forward` method
+  * Reminder that `model(X)` actually does `model.forward(X)` under the covers, and returns the result of `forward(X)`
+  * Shape of the return from `logits, loss = model(X)`, for `TinyTransformerLM` i.e. shape of return from `forward(X)`
+  * look at `TinyTransformerLM.generate()`
+  * `train_transformer.py`, `get_batch()` -- understand `x = torch.stack(...)`
+  * understand `_, loss = model(xb, yb)` in `train_transformer.py`
+
+
+
 ## Class 20
 
 * [Quiz 6 whiteboard](./class20/quiz-6-whiteboard.png)
