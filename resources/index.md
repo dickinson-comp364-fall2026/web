@@ -1,5 +1,23 @@
 # Detailed schedule and resources
 
+
+
+## Class 24
+
+Exam review.
+
+* value learning algorithm: [value-learn-review.pdf](./class24/value-learn-review.pdf)
+
+## Class 23
+
+Quiz 5+6.
+
+Final project selection and discussions.
+
+## Class 22
+
+Discussion D4.
+
 ## Class 21
 
 * finish quiz 6 explanations
