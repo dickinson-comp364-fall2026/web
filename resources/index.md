@@ -7,6 +7,7 @@
 Exam review.
 
 * value learning algorithm: [value-learn-review.pdf](./class24/value-learn-review.pdf)
+* SGD and gradient descent in PyTorch: <https://colab.research.google.com/drive/1hyP41xtM5kKkhaRmGkPit77_Cr4B8b7K?usp=sharing>
 
 ## Class 23
 
